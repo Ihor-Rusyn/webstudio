@@ -30,6 +30,10 @@ margin: 0 auto;
 padding-left: 15px;
 padding-right: 15px;
 }
+.header{
+padding-top: 24px;
+padding-bottom: 25px;
+}
 
 .header-logo{
     font-family: 'Raleway';
@@ -41,6 +45,7 @@ padding-right: 15px;
     letter-spacing: 0.03em;
     
     color: #2196F3;
+    margin-right: 93px;
 }
 
 .header-logo-color{
@@ -56,6 +61,10 @@ letter-spacing: 0.02em;
 
 color: #212121;
 
+}
+.header-pages{
+    display: flex;
+    gap: 50px;
 }
 
 .header-link:hover{
@@ -74,7 +83,20 @@ color: #757575;
 .header-contact-link:hover{
     color: #2196F3;
 }
-
+.header-contacts{
+    display: flex;
+    gap: 50px;
+    margin-left: auto;
+}
+.header-navigation{
+    display: flex;
+    align-items: center;
+    
+}
+.hero{
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
 .hero-title{
     font-weight: 900;
 font-size: 44px;
@@ -85,7 +107,7 @@ letter-spacing: 0.06em;
 text-transform: uppercase;
 
 color: #FFFFFF;
-
+margin-bottom: 30px;
 }
 
 
@@ -136,14 +158,15 @@ color: #212121;
 }
 
 .our-team-title{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.18;
-
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
-    
     color: #212121;
+
 }
 
 .our-team-text{
@@ -159,34 +182,65 @@ color: #212121;
 }
 
 
-.footer-link{
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.25;
 
-    
-    letter-spacing: 0.03em;
-    
-    color: #2196F3;
-    
+
+
+.our-team-name{
+
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
 }
 
 .footer-link-color{
 color: 
 #FFFFFF;
 }
+.footer-link{
 
+    font-family: 'Raleway';
 
-.footer-address{
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.25;
     
     
     letter-spacing: 0.03em;
     
-    color: rgba(255, 255, 255, 0.6);
+    color: #2196F3;
+
+    
 }
+.footer-link-color{
+    color: #000000;
+}
+
+.footer-address{
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+}
+
+.footer-contact{
+    font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+
+
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
+}
+
+
 
 .buttons-element{
     font-weight: 500;
@@ -222,6 +276,5 @@ color: #757575;
 
 }
 
-.footer-link-color{
-    color: #000000;
-}
+
+
