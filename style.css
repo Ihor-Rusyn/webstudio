@@ -213,6 +213,7 @@ height: 260px;
     text-align: center;
     letter-spacing: 0.03em;
     padding-bottom: 30px;
+    
     color: #757575;
 }
 
@@ -227,7 +228,8 @@ font-size: 16px;
 line-height: 1.18;
 text-align: center;
 letter-spacing: 0.03em;
-
+padding-top: 30px;
+padding-bottom: 10px;
 color: #212121;
 }
 .footer{
