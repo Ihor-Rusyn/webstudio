@@ -96,6 +96,10 @@ color: #757575;
 .hero{
     padding-top: 200px;
     padding-bottom: 200px;
+    background: #2F303A;
+    width: 1600px;
+height: 600px;
+flex-shrink: 0;
 }
 .hero-title{
     font-weight: 900;
@@ -121,13 +125,13 @@ display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
-
+display: block;
 color: #FFFFFF;
-
+margin-left: 692px;
 }
 .advantage{
 padding-top: 94px;
-padding-bottom: 176px;
+padding-bottom: 94px;
 
 }
 .advantage-list{
@@ -135,16 +139,14 @@ padding-bottom: 176px;
 font-size: 14px;
 line-height: 1.25;
 letter-spacing: 0.03em;
-text-transform: uppercase;
+display: flex;
+gap: 30px;
 
 color: #212121;
 
 }
 
-.advantage-list{
-    display: flex;
-    gap: 30px;
-}
+
 .advantage-text{
     font-weight: 400;
 font-size: 14px;
@@ -155,7 +157,12 @@ letter-spacing: 0.03em;
 
 color: #757575;
 }
-
+.advantage-title{
+    margin-bottom: 10px;
+}
+.what-we-do{
+    padding-bottom: 94px;
+}
 .what-we-do-title{
     font-weight: 700;
 font-size: 36px;
@@ -168,16 +175,13 @@ margin-right: 617;
 color: #212121;
 }
 .what-we-do-list{
-display: flex;
-
-
-}
-.what-we-do-image{
-    padding-right: 30px;
-}
-.what-we-do-list{
 
     display: flex;
+    gap: 30px;
+}
+.our-team{
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .our-team-title{
     font-family: 'Roboto';
@@ -188,11 +192,12 @@ display: flex;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
-
+margin-bottom: 50px;
 }
 .our-team-list{
     display: flex;
     gap: 30px;
+
 }
 .our-team-image{
     width: 270px;
@@ -225,13 +230,17 @@ letter-spacing: 0.03em;
 
 color: #212121;
 }
-
+.footer{
+    padding-bottom: 60px;
+padding-top: 60px;
+    background: #2F303A;
+}
 .footer-link-color{
 color: 
 #FFFFFF;
 }
 .footer-link{
-
+margin-bottom: 20px;
     font-family: 'Raleway';
 
     font-weight: 700;
